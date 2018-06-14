@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:id="@+id/item_horizontaltext"
+            android:layout_width="84dp"
+            android:layout_height="45dp"
+            android:background="@drawable/shape_selected"
+            android:gravity="center"
+            android:text="第一场"
+            android:textColor="@color/text_color_selected">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/item_2"
+            android:layout_width="84dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/shape_selected"
+            android:gravity="center"
+            android:text="第一场"
+            android:textColor="@color/text_color_selected" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </RadioGroup>
+
+</LinearLayout>

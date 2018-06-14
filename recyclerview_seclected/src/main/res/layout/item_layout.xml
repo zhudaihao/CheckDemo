@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0.5dp"
+        android:layout_height="53dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/item_horizontaltext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@id/view"
+        android:background="@drawable/shape_selected"
+        android:gravity="center"
+        android:text="第一场\n已结束"
+        android:textColor="@color/text_color_selected"
+        android:textSize="11sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/item_horizontaltext"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>
